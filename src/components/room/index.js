@@ -1,0 +1,15 @@
+import Books from './books' 
+import Chair from './chair' 
+import Clock from './clock' 
+import Ground from './ground' 
+import KiraCat from './kira-cat' 
+import Lamp from './lamp' 
+import Monitors from './monitors' 
+import MoonCat from './moon-cat' 
+import Moon from './moon' 
+import PhotoSqr from './photo-sqr' 
+import Table from './table' 
+import ToriCat from './tori-cat' 
+import Window from './window' 
+
+export { Books, Chair, Clock, Ground, KiraCat, Lamp, Monitors, MoonCat, Moon, PhotoSqr, Table, ToriCat, Window }
