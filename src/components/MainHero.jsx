@@ -17,7 +17,7 @@ const MainHero = () => {
         </div>
         <Room className="absolute bottom-10 right-0 w-4/6" />
       </div>
-        <div className="absolute xs:bottom-10 sm:bottom-32 w-full flex justify-center items-center">
+        {/* <div className="absolute xs:bottom-10 sm:bottom-32 w-full flex justify-center items-center">
           <a href="#about">
             <div className="w-[35px]  h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
               <motion.div 
@@ -31,7 +31,7 @@ const MainHero = () => {
               />
             </div>
           </a>
-        </div>
+        </div> */}
     </section>
   )
 }
