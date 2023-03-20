@@ -3,7 +3,7 @@ import { Books, Chair, Clock, Ground, Lamp, Monitors, Moon, PhotoSqr, Table, Win
 const Room = () => {
     return (
         <motion.div animate={{ x: 0 }} className="relative flex justify-center">
-            <svg width="650" height="440"></svg>
+            {/* <svg width="650" height="440"></svg>
             <Books className="absolute top-0" />
             <Clock className="absolute top-0" />
             <Lamp className="absolute top-0" />
@@ -15,7 +15,7 @@ const Room = () => {
             <ToriCat className="absolute top-0" />
             <MoonCat className="absolute top-0" />
             <Chair className="absolute bottom-[]" />
-            <Table className="absolute bottom-[3.75rem] z-10" />
+            <Table className="absolute bottom-[3.75rem] z-10" /> */}
             <Ground className="absolute bottom-0 w-full" />
         </motion.div>
     )
