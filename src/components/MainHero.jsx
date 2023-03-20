@@ -3,9 +3,9 @@ import { styles } from '../styles'
 import { Room } from "./svgs"
 const MainHero = () => {
   return (
-    <section className="mt-20 relative w-full h-screen">
-      <div className={`${styles.paddingX} mt-[20vh] max-w-7xl mx-auto`}>
-        <div>
+    <section className="relative w-full h-screen">
+      <div className={`${styles.paddingX} h-full max-w-7xl mx-auto relative`}>
+        <div className="pt-[15vh]">
           <h3 className={styles.heroSubText}>Hello there!</h3>
           <h1 className={styles.heroHeadText}>I'm <span className="text-secondary">Cristhian Gómez</span></h1>
           <p className="max-w-[550px] mt-8">
@@ -15,8 +15,8 @@ const MainHero = () => {
             unique needs of each project.
           </p>
         </div>
+        <Room className="absolute bottom-10 right-0 w-4/6" />
       </div>
-      <Room />
         <div className="absolute xs:bottom-10 sm:bottom-32 w-full flex justify-center items-center">
           <a href="#about">
             <div className="w-[35px]  h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">

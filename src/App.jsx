@@ -7,7 +7,7 @@ const App = () => {
     <div className="relative z-0 bg-white">
       <Navbar />
       <MainHero />
-      <About />
+      {/* <About />
       <Experience />
       <Tech />
       <Works />
@@ -15,7 +15,7 @@ const App = () => {
       <div className="relative z-0">
         <Contact />
         <StarsCanvas /> 
-      </div>
+      </div> */}
     </div>
     </BrowserRouter>
   )
