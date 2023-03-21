@@ -4,8 +4,8 @@ import { Room } from "./svgs"
 const MainHero = () => {
   return (
     <section className="relative w-full h-screen">
-      <div className={`${styles.paddingX} h-full max-w-7xl mx-auto relative`}>
-        <div className="pt-[15vh]">
+      <div className={`${styles.paddingX} h-full max-w-7xl mx-auto relative flex justify-center`}>
+        <div className="pt-[15vh] absolute bottom-0">
           <h3 className={styles.heroSubText}>Hello there!</h3>
           <h1 className={styles.heroHeadText}>I'm <span className="text-secondary">Cristhian Gómez</span></h1>
           <p className="max-w-[550px] mt-8">
@@ -15,7 +15,7 @@ const MainHero = () => {
             unique needs of each project.
           </p>
         </div>
-        <Room className="absolute bottom-10 right-0 w-4/6" />
+        <Room className="absolute bottom-10 right-0 w-full" />
       </div>
         {/* <div className="absolute xs:bottom-10 sm:bottom-32 w-full flex justify-center items-center">
           <a href="#about">
