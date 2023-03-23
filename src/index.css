@@ -251,16 +251,16 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 1;
   }
 }
-.room-shooting-stars > path {
+.room-shooting-stars > * {
   /* animation: 2s linear 0s normal infinite falldown1; */
-  transform-origin: center;
-  transform-box: fill-box;
+  /* transform-origin: center;
+  transform-box: fill-box; */
 }
-.room-shooting-stars > :nth-child(1) {
+/* .room-shooting-stars > :nth-child(1) {
   animation: 2s linear 0s normal infinite falldown1;
   animation-delay: 0s;
   animation-delay: 1;
-}
+} */
 /* .room-shooting-stars > path:nth-child(odd) {
   animation-delay: 1s;
 } */
